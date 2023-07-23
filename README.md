@@ -24,7 +24,7 @@ To explore my portfolio, simply navigate to the provided link and browse through
 
 ## Output
 
-Click Here to view the output [My Portfolio](https://raw.githack.com/WiiWake3101/HTML-CSS-Improved-Version/main/Vivek%E2%80%99s%20Portfolio/home.html).
+Click Here to view the output [My Portfolio]([https://raw.githack.com/WiiWake3101/HTML-CSS-Improved-Version/main/Vivek%E2%80%99s%20Portfolio/home.html]).
 
 ## Contributing
 
