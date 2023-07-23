@@ -1,8 +1,7 @@
 body {
     background: linear-gradient(180deg, #00C0FC 0%, rgba(36, 0, 255, 0.74) 100%);
-    width: 100%;
+    width: 1440px;
     height: auto;
-    min-height: 100vh;
 }
 
 .rectangle {
