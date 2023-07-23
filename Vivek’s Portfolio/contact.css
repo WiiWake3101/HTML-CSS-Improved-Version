@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(180deg, #00C0FC 0%, rgba(36, 0, 255, 0.74) 100%);
+    width: 1440px;
+    height: 697px;
+}
+
+.rectangle {
+    margin-left: 2%;
+    width: 1400px;
+    height: 92px;
+    border-radius: 15px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.rectangle a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+}
+
+.font_1 {
+    padding: 1.5%;
+    color: #000;
+    font-family: 'Fugaz One', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.font_2 {
+    padding-top: 40px;
+    padding-left: 7%;
+    color: #FFF;
+    text-align: center;
+    font-family: Fugaz One;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu li a.active {
+    color: #00C0FC;
+}
+
+.rectangle_2{
+    margin-left: 2%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 1400px;
+    height: auto;
+}
+
+.font_3{
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.font_4{
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    color: black;
+}
+
+.rectangle_2 a{
+    text-decoration: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.menu li a:hover {
+    color: #00C0FC;
+}

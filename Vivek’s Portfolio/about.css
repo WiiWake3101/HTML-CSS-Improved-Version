@@ -1,0 +1,172 @@
+body {
+    background: linear-gradient(180deg, #00C0FC 0%, rgba(36, 0, 255, 0.74) 100%);
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+}
+
+.rectangle {
+    margin-left: 2%;
+    width: 1400px;
+    height: 92px;
+    border-radius: 15px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.rectangle a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+}
+
+.font_1 {
+    padding: 1.5%;
+    color: #000;
+    font-family: 'Fugaz One', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a.active {
+    color: #00C0FC;
+}
+
+.font_2 {
+    padding-top: 13px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.rectangle_2 {
+    margin-left: 2%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 1400px;
+    height: auto;
+}
+
+.font_3 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+}
+
+.img_size {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+}
+
+li {
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+}
+
+table {
+    table-layout: fixed;
+    background-color: white;
+    color: #1E1E1E;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #1E1E1E;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+th {
+    background-color: #1E1E1E;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #1E1E1E;
+    font-size: 1.1rem;
+}
+
+td {
+    background-color: white;
+    color: #1E1E1E;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #1E1E1E;
+    font-size: 1.1rem;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_size_2 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 150px;
+}
+
+.button {
+    background-color: white;
+    font-family: 'Fugaz One', cursive;
+    color: black;
+    border: 2px solid #6e6d6d;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+}
+
+.button:hover {
+    background-color: #00C0FC;
+    color: white;
+    opacity: 10px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.menu li a:hover {
+    color: #00C0FC;
+}
